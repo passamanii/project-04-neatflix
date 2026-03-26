@@ -1,2 +1,1 @@
-# alura-imersao
-
+# Streaming Site Project
