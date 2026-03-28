@@ -24,13 +24,13 @@ export const categories = [
         title: "Séries",
         items: [
             { img: "/src/images/series/wavetale.jpg", top10: true, 
-                badge: "", badgeColor: "red", youtube: "https://youtu.be/F6wNFtMUv0g" },
+                badge: "", badgeColor: "red", youtube: "https://www.youtube.com/watch?v=F6wNFtMUv0g&list=PLQhYuXjEUpWNssz3n6r9q14DA1uzF4Zsd" },
             { img: "/src/images/series/thegunk.png", top10: true, 
-                badge: "novo episódio", youtube: "https://youtu.be/ezm_B0aqTdg" },
+                badge: "novo episódio", youtube: "https://www.youtube.com/watch?v=ezm_B0aqTdg&list=PLQhYuXjEUpWOljLLd3HswYrxjmPPfZ9Vi&index=4" },
             { img: "/src/images/series/soulstice.jpg", badge: "", 
-                badgeColor: "red", youtube: "https://youtu.be/hVBLpXI3IdM" },
+                badgeColor: "red", youtube: "https://www.youtube.com/watch?v=hVBLpXI3IdM&list=PLQhYuXjEUpWPn3E5QcaOf2Mm1EBpM5v1s" },
             { img: "/src/images/series/isleofjura.jpg", badge: "", 
-                badgeColor: "red", youtube: "https://youtu.be/EE8-1boC5HQ" },
+                badgeColor: "red", youtube: "https://www.youtube.com/watch?v=EE8-1boC5HQ&list=PLQhYuXjEUpWP2xDjlyP9usOChcJPWoQ_W" },
         ]
     },
     {
