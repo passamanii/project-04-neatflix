@@ -3,8 +3,8 @@ const button = document.getElementById("theme_toggle");
 function updateButtonText() {
 
     button.textContent = document.body.classList.contains("light")
-    ? "Light ☀️"
-    : "Dark 🌙";
+    ? "☀️"
+    : "🌙";
 }
 
 if (localStorage.getItem("theme") == "light") {
