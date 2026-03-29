@@ -73,6 +73,7 @@ img:hover + .profile_cap {
 
 h1 {
     font-size: 3.5rem;
+    user-select: none;
 }
 
 .profiles {
