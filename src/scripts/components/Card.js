@@ -13,7 +13,8 @@ export function createCard(item) {
 
     const iframe = document.createElement('iframe');
     iframe.frameBorder = "0";
-    iframe.allow = "autoplay; encrypted-media";
+    iframe.allow = "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture";
+    iframe.allowFullscreen = true;
 
     const videoId = getYouTubeId(item.youtube);
 
@@ -87,10 +88,12 @@ export function createCard(item) {
         }
 
         playTimeout = setTimeout(() => {
-            iframe.src = `https://www.youtube.com/embed/${videoId}?autoplay=1&mute=0&controls=0&modestbranding=1&loop=1&playlist=${videoId}`;
-            iframe.classList.add('playing');
-            img.classList.add('playing-video');
-            card.classList.add('video-playing');
+            if (item.youtube && item.youtube.trim()) {
+                iframe.src = `https://www.youtube.com/embed/${videoId}?autoplay=1&mute=1&controls=0&modestbranding=1&loop=1&playlist=${videoId}`;
+                iframe.classList.add('playing');
+                img.classList.add('playing-video');
+                card.classList.add('video-playing');
+            }
         }, 600);
     });
 
